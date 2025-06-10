@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-background: var(--background);
+  --color-container: var(--container);
+  --color-btn: var(--btn);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-ternary: var(--ternary);
+}
+
+@layer base {
+  :root {
+    --background: #dee1e7;
+    --container: #ffff;
+    --btn: #0266ff;
+    --primary: #010101;
+    --secondary: #c0c0c0;
+    --ternary: #9b9b9d;
+  }
+
+  .dark {
+    --background: #121212;
+    --container: #1e1e1e;
+    --btn: #3399ff;
+    --primary: #ffffff;
+    --secondary: #626262;
+    --ternary: #7a7a7a;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    transition: all ease 200ms;
+    outline: none;
+  }
+}
