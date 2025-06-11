@@ -14,8 +14,8 @@ const SignIn = () => {
   };
   const signInForm = [{ title: "Email Address", icon: "Mail" }];
   const signUpForm = [
-    { title: "Name", icon: "User" },
     { title: "Email Address", icon: "Mail" },
+    { title: "Name", icon: "User" },
     { title: "Password", icon: "KeyRound" },
   ];
   return (
